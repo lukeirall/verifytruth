@@ -1,0 +1,222 @@
+body{
+    /* background-color: white; */
+    background-image: url(/imagens/fundo-insta.png);
+    /* background-color: #FFF8DC; */
+    margin: auto !important;    
+    /* background-repeat: repeat-x; */
+}
+
+.img-logo-insta{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 90%;
+    top: 6%;
+}
+
+hr{
+    position: relative;
+    top: 5pc;
+    width: 90%;
+}
+
+.img-logo-fakeNews{
+    position: absolute;
+    height: 90px;
+    width: 150px;
+    border-radius: 5%;
+    left: 5%;
+    top: 3%;
+}
+
+.titulo-oque-fakeNews{
+    text-align: center;
+    color: white;
+}
+
+.titulo-introducao h1{
+    text-align: center;
+    /* top: 2pc; */
+    position: relative;
+    color: white;
+}
+
+.titulo-introducao h2{
+    text-align: center;
+    color: white;
+    margin-top: 3pc;
+    margin-bottom: 4pc;
+}
+
+.container-img-paragrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-introducao img{
+    width: 140%;
+}
+
+.img-logo-aguia{
+    width: 125px;
+}
+
+.paragrafo-introducao{
+    width: 40%;
+}
+
+.paragrafo-introducao p{
+    font-size: 106%;
+    text-align: left;
+    color: #d3d3d3;
+}
+
+.container-oque-fakeNews {
+    padding: 5%;
+    max-width: 850px;
+    margin: auto;
+    /* background-image: url(/imagens/32.png); */
+}
+
+.paragrafo-oque-fakeNews {
+    font-size: 120%;
+    color: #d3d3d3;
+}
+
+.paragrafo-oque-fakeNews p {
+    text-align: center;
+}
+
+.titulo-caso-fakeNews {
+
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.paragrafo-caso-fakeNews p {
+    text-align: center;
+    font-size: 120%;
+    color: #d3d3d3;
+} 
+
+.container-caso-fakeNews {
+    padding: 5%;
+    padding-top: 2%;
+    max-width: 850px;
+    margin: auto;
+}
+
+.caso-fakeNews {
+    padding-top: 3%;
+}
+
+.div-container-form{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.div-container-form form{
+    background-color: white;
+    max-width: 450px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+form h2{
+    color: #2D5966;
+}
+
+form h2, p{
+    text-align: center;
+}
+
+form p{
+    margin: 20px 0;
+
+}
+
+.input-single{
+    position: relative;
+    margin: 20px 0  ;
+}
+
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.5s;
+
+} 
+
+input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 18px;
+    outline: 0;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: #2D5966;
+}
+
+.container-textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    padding: 24px 192px;    
+}
+
+.button button{
+    width: 58px;
+    height: 26px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #2D5966;
+    color: white;
+}
+
+h1{
+    font-size: 3pc;
+}
+
+.logo-aguia{
+    text-align: center;
+}
+/* 
+section{
+    background-image: url(/imagens/fundo-insta.png);
+} */
+
+.titulo-factvsFakeNews h1{
+    color: white;
+    text-align: center;
+}
+
+.div-container-factvsFakeNews{
+    max-width: 850px;
+    margin: auto;
+}
+
+.div-container-factvsFakeNews p{
+    color: #d3d3d3;
+    /* text-align: center; */
+    font-size: 120%;
+    text-align: left;
+}
+
+/* .container-introducao, header{
+    background-image: url(/imagens/31.png);
+} */
